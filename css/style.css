@@ -343,12 +343,7 @@ body {
     .icon-socnetwork:last-child{
         margin-right: 0px;
     }
-    .icon-facebook{
-        height: 22px;
-        width: 22px;
-        background-position: center;
-       
-    }
+    
     .paragraph {
         color: var(--paragraph-color);
         font-size: 16px;
