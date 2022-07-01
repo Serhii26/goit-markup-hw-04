@@ -172,8 +172,7 @@ body {
       }
     .header-color{
         background: #2F303A;
-       background-image: linear-gradient(to rigth, red, green);
-       background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/studio/Img_13.jpg);
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.0)), url(../images/studio/Img_13.jpg);
         
         background-repeat: no-repeat;
         background-size: cover;
@@ -309,7 +308,7 @@ body {
     }
     .icon-socnetwork{
         background-color: #FFFFFF;
-        padding: 0;
+        padding:12px 12px;
         border: 0px;
         fill: #afb1b8;
         width: 44px;
@@ -320,7 +319,19 @@ body {
     .icon-socnetwork:hover
     {
         background-color: #188CE8;
-        padding: 0;
+        padding:12px 12px;
+        border: 0px;
+        fill: #FFFFFF;
+        
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    .icon-socnetwork:focus
+    {
+        background-color: #188CE8;
+        padding:12px 12px;
         border: 0px;
         fill: #FFFFFF;
         
@@ -474,7 +485,12 @@ body {
     .icon-yaco:hover{
         padding: 0;
         border: 0px;
-        
+        border: 1px solid #2196F3;
+        fill: #2196F3;
+    }
+    .icon-yaco:focus{
+        padding: 0;
+        border: 0px;
         border: 1px solid #2196F3;
         fill: #2196F3;
     }
@@ -506,11 +522,23 @@ body {
         text-transform: uppercase;
         
         margin-bottom: 20px;
-        outline: 2px solid tomato;
+        
     }
     .join .icon-centen{
         margin-left: 0px;
     }
+    .join .icon-socnetwork{
+        
+         background-color: rgba(255, 255, 255, 0.504);
+         fill: #EEEEEE;
+    }
+    .join .icon-socnetwork:hover{
+        background-color: #2196F3;
+    }
+    .join .icon-socnetwork:focus{
+        background-color: #2196F3;
+    }
+
     
     .fooret-address{
         display: flex;
@@ -527,7 +555,7 @@ body {
     } */
     .conteiner.icon{
         margin-right: 0px;
-        margin-left: 0px;
+        margin-left: 220px;
     }
     
     .icon-footer{
