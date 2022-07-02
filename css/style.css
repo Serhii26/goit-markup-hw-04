@@ -226,8 +226,7 @@ body {
         margin-right: 0px;
     }
     .icon-antena {
-        width: 270px;
-        height: 120px;
+       
         padding: 25px 100px;
         margin-bottom: 30px;
         
@@ -247,18 +246,15 @@ body {
     .feature p{
         font-size: 14px;
     }
-    .section.team{
-      padding-top: 94px;  
-       
-    }
+    
 
     .title-work {
         font-size: 36px;
         font-weight: 700;
         line-height: 1.16;
-        /* width: 376px;  */
         margin: auto;
         text-align: center;
+        padding-top: 94px;
 
     }
     
@@ -288,6 +284,11 @@ body {
     }
     .work-team :last-child{
         padding-right: 0px;
+    }
+    
+    .section.team{
+        background-color:#F5F4FA;
+        padding-top: 94px; 
     }
     .img-work {
         font-size: 16px;
@@ -352,7 +353,7 @@ body {
     }
     .img-people{
         padding-top: 30px;
-        padding-bottom: 30px;
+        
         
     }
     .footer {
@@ -494,7 +495,7 @@ body {
     }
     
     .icon-yaco-center{
-        padding: 7px 33px;
+        /* padding: 7px 33px; */
         margin: 16px 32px;
     }
     .icon-company{
