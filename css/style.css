@@ -318,11 +318,11 @@ body {
 
    
     .work-card{
-        display: block;
+        display: flex;
         border: 0px;
         background-color: #FFFFFF;
         fill: #afb1b8;
-        padding-top: 12px;
+        padding:0px;
         margin-right: 10px;
         width: 44px;
         height: 44px;
@@ -335,7 +335,7 @@ body {
     
     .work-card:hover,
     .work-card:focus{
-        display: block;
+        
         background-color: #188CE8;
         border: 0px;
         fill: #FFFFFF;
