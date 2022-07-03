@@ -215,12 +215,17 @@ body {
         display: flex;
         justify-content: space-between;
     }
-    .feature li{
-       width: 270px;
-    }
+    
     .feature-item {
-        /* display: flex; */
+        display: flex; 
+        height: 120px;
+        width: 270px;
         margin-right: 30px;
+        margin-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+        background: #F5F4FA;
+        border-radius: 4px;
     }
     .feature :last-child{
         margin-right: 0px;
@@ -261,9 +266,14 @@ body {
     .work-studio {
         margin-right: 30px;
     }
-    .title-img :last-child{
-        margin-right: 0px;
+    .title-studio{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.16;
+        margin: auto;
+        text-align: center;  
     }
+    
 
     .title-img{
         display: flex;
@@ -275,16 +285,16 @@ body {
         display: flex;
         justify-content: space-between;
         margin-top: 50px;
+       
     }
     .work-people{
         margin-right: 30px;
         text-align: center;
+        background-color: #FFFFFF;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
     }
-    .work-team :last-child{
-        padding-right: 0px;
-    }
+   
     
     .section.team{
         background-color:#F5F4FA;
@@ -300,46 +310,41 @@ body {
         display: flex;
         margin-top: 16px;
         margin-bottom: 30px;
-        margin-left: 32px;
-        margin-right: 32px;
+       
+        justify-content: center;
     }
     
-    .icon-socnetwork{
-        /* background-color: #FFFFFF; */
-        padding:12px 12px;
-        border: 0px;
-        fill: #afb1b8;
-        width: 44px;
-        height: 44px;
-        border-radius: 50%;
-        margin-right: 10px;
-    }
-    .icon-socnetwork:hover
-    {
-        background-color: #188CE8;
-        padding:12px 12px;
-        border: 0px;
-        fill: #FFFFFF;
-        
-        width: 44px;
-        height: 44px;
-        border-radius: 50%;
-        margin-right: 10px;
-    }
-    .icon-socnetwork:focus
-    {
-        background-color: #188CE8;
-        padding:12px 12px;
-        border: 0px;
-        fill: #FFFFFF;
-        
-        width: 44px;
-        height: 44px;
-        border-radius: 50%;
-        margin-right: 10px;
-    }
+    
+
     .icon-socnetwork:last-child{
         margin-right: 0px;
+    }
+    .work-card{
+        display: block;
+        border: 0px;
+        background-color: #FFFFFF;
+        fill: #afb1b8;
+        padding-top: 12px;
+        width: 44px;
+        height: 44px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;  
+        
+        
+    }
+    
+    .work-card:hover,
+    .work-card:focus{
+        display: block;
+        background-color: #188CE8;
+        border: 0px;
+        fill: #FFFFFF;
+        
+    }
+    
+    .icon-envelope{
+        align-items: center;
     }
     
     .paragraph {
@@ -465,6 +470,7 @@ body {
     }
     
     .icon-yaco{
+        display: flex;
         background-color: #FFFFFF;
         padding: 0;
         fill: #afb1b8;
@@ -479,26 +485,20 @@ body {
         justify-content: center;
        
     }
-    .icon-yaco:hover{
-        padding: 0;
-        border: 0px;
-        border: 1px solid #2196F3;
-        fill: #2196F3;
-    }
+    .icon-yaco:hover,
     .icon-yaco:focus{
         padding: 0;
         border: 0px;
         border: 1px solid #2196F3;
         fill: #2196F3;
     }
-    .icon-yaco:last-child{
+    
+    
+    .icon-yaco :last-child{
         margin-right: 0px;
     }
     
-    .icon-yaco-center{
-        /* padding: 7px 33px; */
-        margin: 16px 32px;
-    }
+    
     .icon-company{
         display: flex;
         margin-top: 50px;
@@ -517,23 +517,29 @@ body {
         margin-bottom: 20px;
         
     }
-    .join .icon-centen{
-        margin-left: 0px;
-    }
-    .join .icon-socnetwork{
+     .work-join{
+        display: flex;
+        border: 0px;
+        background-color: #3f3f42;
+        fill: #afb1b8;
         
-         /* background-color: rgba(255, 255, 255, 0.504);  */
-         background-color: #3f3f42;
-        
-         fill: #EEEEEE;
-    }
-    .join .icon-socnetwork:hover{
+        width: 44px;
+        height: 44px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%; 
+        margin-right: 10px;
+     }
+     .work-join:hover,
+     .work-join:focus{
+        display: flex;
         background-color: #2196F3;
-    }
-    .join .icon-socnetwork:focus{
-        background-color: #2196F3;
-    }
-
+        fill: #FFFFFF;
+     }
+     .work-join :last-child{
+        margin-right: 0px;
+     }
+    
     
     .fooret-address{
         display: flex;
@@ -542,12 +548,7 @@ body {
     .section.work {
         padding-top: 94px;
     }
-    /* .section.footer{
-         display: flex; 
-        justify-content: flex-start;
-        padding-bottom: 0px;
-        
-    } */
+    
     .conteiner.icon{
         display: flex;
         
