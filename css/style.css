@@ -316,15 +316,14 @@ body {
     
     
 
-    .icon-socnetwork:last-child{
-        margin-right: 0px;
-    }
+   
     .work-card{
         display: block;
         border: 0px;
         background-color: #FFFFFF;
         fill: #afb1b8;
         padding-top: 12px;
+        margin-right: 10px;
         width: 44px;
         height: 44px;
         justify-content: center;
@@ -341,6 +340,9 @@ body {
         border: 0px;
         fill: #FFFFFF;
         
+    }
+    .work-card :last-child{
+        margin-right: 0px;
     }
     
     .icon-envelope{
@@ -530,15 +532,16 @@ body {
         border-radius: 50%; 
         margin-right: 10px;
      }
+     .work-join :last-child{
+        margin-right: 0px;
+     }
      .work-join:hover,
      .work-join:focus{
         display: flex;
         background-color: #2196F3;
         fill: #FFFFFF;
      }
-     .work-join :last-child{
-        margin-right: 0px;
-     }
+     
     
     
     .fooret-address{
