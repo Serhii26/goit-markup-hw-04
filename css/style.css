@@ -135,6 +135,7 @@ body {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
+    fill: #757575;
     
     font-weight: 500;
     line-height: 1.14;
@@ -215,21 +216,24 @@ body {
         display: flex;
         justify-content: space-between;
     }
+    .feature-blok{
+        margin-right: 30px;
+    }
+    .feature-blok:last-child{
+        margin-right: 0px;
+    }
     
     .feature-item {
         display: flex; 
         height: 120px;
         width: 270px;
-        margin-right: 30px;
         margin-bottom: 30px;
         justify-content: center;
         align-items: center;
         background: #F5F4FA;
         border-radius: 4px;
     }
-    .feature :last-child{
-        margin-right: 0px;
-    }
+    
     .icon-antena {
        
         padding: 25px 100px;
@@ -246,7 +250,7 @@ body {
         line-height: 1.14;
         text-transform: uppercase;
 
-        padding-bottom: 10px;
+        margin-bottom: 10px;
     }
     .feature p{
         font-size: 14px;
@@ -313,7 +317,12 @@ body {
        
         justify-content: center;
     }
-    
+    .team-blok{
+        margin-right: 10px;
+    }
+    .team-blok:last-child{
+        margin-right: 0px;
+    }
     
 
    
@@ -323,7 +332,6 @@ body {
         background-color: #FFFFFF;
         fill: #afb1b8;
         padding:0px;
-        margin-right: 10px;
         width: 44px;
         height: 44px;
         justify-content: center;
@@ -341,9 +349,7 @@ body {
         fill: #FFFFFF;
         
     }
-    .work-card :last-child{
-        margin-right: 0px;
-    }
+    
     
     .icon-envelope{
         align-items: center;
@@ -523,7 +529,7 @@ body {
         display: flex;
         border: 0px;
         background-color: #3f3f42;
-        fill: #afb1b8;
+        fill: #FFFFFF;
         
         width: 44px;
         height: 44px;
@@ -539,7 +545,7 @@ body {
      .work-join:focus{
         display: flex;
         background-color: #2196F3;
-        fill: #FFFFFF;
+        
      }
      
     
